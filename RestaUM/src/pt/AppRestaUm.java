@@ -6,7 +6,7 @@ public class AppRestaUm {
 		
 		//iniciando a classe CSVReader e criando um vetor de comandos
 		CSVReader csv= new CSVReader();
-		csv.setDataSource("C:\\Users\\Matheus Cândido\\Documents\\UNICAMP\\MC322\\RestaUm\\src\\pt\\arq001.csv");
+		csv.setDataSource("https://github.com/MatheusASCandido/Resta-1/edit/master/RestaUM/src/pt/arq001.csv");
 		String commands [] = csv.requestCommands();
 		
 		//criando o tabuleiro
