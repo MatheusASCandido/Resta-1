@@ -1,7 +1,7 @@
 package pt;
 
-public class Pecas {
-    String n;
+public class Pecas {//classe de pecas
+    String n;//representa a peca sendo "p" para uma peca existente, "-" um espaco vazio no tabuleiro ou " " para um espaco nao existente no tabuleiro
    
     void inicializar (){
         n="p";
@@ -9,7 +9,7 @@ public class Pecas {
     void inicializar2(){
         n=" ";
     }
-    void comer (){
+    void comer (){//transforma o espaco em vazio ou preenchido por uma peca
         if (n=="p"){
             n="-";
         }
@@ -20,7 +20,7 @@ public class Pecas {
         }
     }
    
-    void mostrar(){
+    void mostrar(){//mostra um espaco de peca do tabuleiro
         System.out.print(n+" ");
     }
 }
