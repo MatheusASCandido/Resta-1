@@ -1,5 +1,7 @@
 package pt;
-
+//Matheus A. S. Candido - ra241640
+//Pedro H. Bueno - ra223402
+//aplicacao da etapa resta um do trabalho
 public class AppRestaUm {
 
 	public static void main(String[] args) {
