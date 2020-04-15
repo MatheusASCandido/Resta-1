@@ -1,5 +1,8 @@
 package pt;
-
+//Matheus A. S. Candido - ra241640
+//Pedro H. Bueno - ra223402
+//classe parte da etapa resta um do trabalho
+//classe cujo o codigo foi disponibilizado pelo professor Andre Santanche
 
 import java.io.BufferedReader;
 import java.io.FileReader;
