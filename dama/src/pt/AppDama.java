@@ -7,7 +7,7 @@ public class AppDama {
 	public static void main(String[] args) {
 		//iniciando a classe CSVReader e criando um vetor de comandos
 				CSVReader csv= new CSVReader();
-				csv.setDataSource("C:\\Users\\Matheus Cândido\\Documents\\UNICAMP\\MC322\\Dama\\teste.csv");//endereco do arq csv
+				csv.setDataSource("https://github.com/MatheusASCandido/Trabalho-de-322/blob/master/dama/src/pt/teste.csv");//endereco do arq csv
 				String commands [] = csv.requestCommands();
 				
 				//criando o tabuleiro
